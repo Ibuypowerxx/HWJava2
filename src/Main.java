@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100; // Начальный счет
-        int y = 1100; // Сумма пополнения
+        int check = 100; // Начальный счет
+        int repamount = 1100; // Сумма пополнения
 
         int bonus;
-        if (y > 1000) {
-            bonus = y / 100;
+        if (repamount > 1000) {
+            bonus = repamount / 100;
         } else {
             bonus = 0;
         }
-        int z = x + y + bonus; // Сумма на счету после пополнения
+        int afteramount = check + repamount + bonus; // Сумма на счету после пополнения
         System.out.println("Итого бонусных рублей " + bonus);
-        System.out.println("Итоговая сумма на счету " + z);
+        System.out.println("Итоговая сумма на счету " + afteramount);
 
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
